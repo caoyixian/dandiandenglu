@@ -1,0 +1,12 @@
+stmp: 
+  host: smtp.163.com
+  account: mail@163.com
+  password: xxxxxxx
+mail: 
+  smtp: 
+    auth: true
+    timeout: 25000
+multipart:  
+  enabled: true  
+  max-file-size: 50mb  
+  max-request-size: 50mb
